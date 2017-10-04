@@ -2,8 +2,8 @@ execute pathogen#infect()
 syntax on
 filetype plugin on
 filetype plugin indent on
-set background=dark
-colorscheme base16-monokai
+"set background=dark
+"colorscheme base16-monokai
 let g:airline_left_sep=''
 let g:airline_right_sep=''
 
@@ -25,6 +25,7 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set mouse=a
+set relativenumber
 
 map <C-f> :NERDTreeToggle<CR>
 map <C-t> :tab split<CR>
